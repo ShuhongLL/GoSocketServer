@@ -1,0 +1,6 @@
+pkg
+bin
+src
+server/vendor
+github.com
+golang.org
