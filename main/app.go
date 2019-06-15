@@ -1,14 +1,14 @@
 package main
 
 import (
+	"handler"
 	"log"
 	"server"
 	"time"
-	"handler"
 )
 
 func main() {
-	host := ":9543"
+	host := "127.0.0.1:9543"
 
 	ss, err := server.CreateSocket(host)
 	if err != nil {
